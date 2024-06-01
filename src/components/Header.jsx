@@ -11,7 +11,7 @@ function Header() {
     <>
     <Navbar expand="lg" className="bg-light shadow w-100 position-fixed top-0" style={{ zIndex: '10',height:'100px' }}>
         <Container>
-          <Navbar.Brand><Link className='fw-bold' to={'/'} style={{ textDecoration: 'none', color: 'red' }}><i className='fa-solid fa-truck-fast me-2'></i><span className='text-dark'>QUICK</span> MUNCH</Link> </Navbar.Brand>
+          <Navbar.Brand><Link className='fw-bold' to={'/'} style={{ textDecoration: 'none', color: 'red' }}><i className="fa-solid fa-bell-concierge me-2"></i><span className='text-dark'>QUICK</span> MUNCH</Link> </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
